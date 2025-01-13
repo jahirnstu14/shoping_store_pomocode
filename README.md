@@ -1,0 +1,1 @@
+# shoping_store_pomocode
