@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.product-card img {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.cart-info button {
+  margin-left: 10px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+/* Regular button style */
+.btn-large {
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #28a745; /* Original green */
+  color: #ffffff; /* White text */
+  border: none;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Hover state: Change background to black */
+.btn-large:hover {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* Keep text white */
+  transform: scale(1.05); /* Slight enlargement */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+/* Focus state for accessibility */
+.btn-large:focus {
+  outline: 2px solid #007bff; /* Blue outline */
+  outline-offset: 2px;
+}
+#promo-message {
+  font-size: 1rem;
+  font-weight: bold;
+}
